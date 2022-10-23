@@ -55,7 +55,7 @@ link = "https://linkedin.com/in/gaurav-gogia"
         enable = true
         title = "aoiflux"
         avatarURL = "/images/logo.jpg"
-        subtitle = "forensics / security / misc"
+        subtitle = "portfolio & blog for forensics / security"
     [params.home.posts]
         enable = true
         paginate = 5
