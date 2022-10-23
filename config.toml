@@ -1,0 +1,126 @@
+baseURL = "https://aoiflux.vercel.app"
+languageCode = "en-us"
+title = "aoiflux"
+theme = "LoveIt"
+enableGitInfo = true
+enableRobotsTXT = true
+enableEmoji = true
+
+[module]
+    [module.hugoVersion]
+        min = "0.62.0"
+        extended = true
+    [[module.imports]]
+        path = "LoveIt"
+
+[author]
+name = "Gaurav Gogia"
+email = "gaurav-gogia@outlook.com"
+link = "https://linkedin.com/in/gaurav-gogia"
+
+[params]
+    defaultTheme = "auto"
+    dateFormat = "2006-01-02"
+
+[params.app]
+    noFavicon = false
+    svgFavicon = ""
+    iconColor = "#5bbad5"
+    tileColor = "#da532c"
+
+[params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+        title = "aoiflux"
+        name = "aoiflux"
+        pre = "<i class='fa fa-microchip'></i>"
+
+[params.section]
+    paginate = 10
+[params.list]
+    paginate = 10
+
+[params.search]
+    enable = true
+    type = "lunr"
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[params.home]
+    [params.home.profile]
+        enable = true
+        title = "aoiflux"
+        avatarURL = "/images/logo.jpg"
+        subtitle = "forensics / security / misc"
+    [params.home.posts]
+        enable = true
+        paginate = 5
+
+[params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    lightgallery = true
+    [params.page.toc]
+        enable = true
+        keepStatic = false
+        auto = true
+    [params.page.code]
+        copy = true
+    [params.page.share]
+        enable = true
+        Twitter = true
+        Linkedin = true
+        Facebook = true
+        Whatsapp = true
+        Reddit = true
+        Line = false
+        Pinterest = false
+        Tumblr = false
+        HackerNews =false
+        VK = false
+        Buffer = false
+        Xing = false
+        Instapaper = false
+        Pocket = false
+        Flipboard = false
+        Weibo =false
+        Blogger = false
+        Baidu = false
+        Odnoklassniki = false
+        Evernote = false
+        Skype = false
+        Trello = false
+        Mix = false
+
+
+[params.social]
+    [params.social.linkedin]
+        id = "gaurav-gogia"
+    [params.social.github]
+        id = "gaurav-gogia"
+    [params.social.email]
+        id = "gaurav-gogia@outlook.com"
+
+[params.footer]
+    enable = false
+
+[menu]
+    [[menu.main]]
+        weight = 1
+        identifier = "posts"
+        name = "posts"
+        url = "/posts/"
+    [[menu.main]]
+        weight = 2
+        identifier = "resume"
+        name = "resume"
+        url = "https://1drv.ms/b/s!AjhUHZpDcRgThdgKMTRvWdNr2queCg?e=wOGva9"
+    [[menu.main]]
+        weight = 4
+        identifier = "μdocs"
+        name = "μdocs"
+        url = "https://mudocs.netlify.app/"
