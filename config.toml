@@ -5,6 +5,7 @@ theme = "LoveIt"
 enableGitInfo = true
 enableRobotsTXT = true
 enableEmoji = true
+googleAnalytics = "G-B5NQJG2CXF"
 
 [module]
     [module.hugoVersion]
@@ -107,6 +108,9 @@ link = "https://linkedin.com/in/gaurav-gogia"
 
 [params.footer]
     enable = false
+
+[params.cookieconsent]
+    enable = true
 
 [menu]
     [[menu.main]]
