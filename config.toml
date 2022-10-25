@@ -5,7 +5,6 @@ theme = "LoveIt"
 enableGitInfo = true
 enableRobotsTXT = true
 enableEmoji = true
-googleAnalytics = "G-DBNC643GS7"
 
 [module]
     [module.hugoVersion]
@@ -23,8 +22,10 @@ link = "https://linkedin.com/in/gaurav-gogia"
     defaultTheme = "auto"
     dateFormat = "2006-01-02"
 
-[params.googleTagManager]
-    id = "G-DBNC643GS7"
+[params.analytics]
+    enable = true
+    [params.analytics.google]
+        id = "G-DBNC643GS7"
 
 [params.app]
     noFavicon = false
