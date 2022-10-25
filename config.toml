@@ -5,6 +5,7 @@ theme = "LoveIt"
 enableGitInfo = true
 enableRobotsTXT = true
 enableEmoji = true
+googleAnalytics = "G-DBNC643GS7"
 
 [module]
     [module.hugoVersion]
