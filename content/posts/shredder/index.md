@@ -18,13 +18,14 @@ resources:
 toc:
     enable: false
 ---
-So, you've used a file shredder tool to securely delete all the files from your #windows machine and formatted the #hdd just for good measure.
+
+So, you've used a file shredder tool to securely delete all the files from your #windows machine and formatted the **hdd** just for good measure.
 
 That makes you secure. Right?
 
 Not really. Without getting into the specifics. Modern operating systems and file systems record everything.
 
-File shredder tools leave behind their own #signatures. These signatures aka digital tool markers (dtm) can be detected and can even be used to attribute them to some specific file shredding utilities.
+File shredder tools leave behind their own signatures. These signatures aka digital tool markers (dtm) can be detected and can even be used to attribute them to some specific file shredding utilities.
 
 What are these digital tool markers? How do we identify them? Please wait for a longer post with more details ^.^
 
