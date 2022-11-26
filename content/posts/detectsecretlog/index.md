@@ -12,7 +12,7 @@ tags: ["Forensics", "Security", "Logging", "Privacy"]
 categories: ["Privacy"]
 ---
 
-## Overview
+
 Logging is important for all sorts of purposes. Windows event logs help in detecting intrusions. EDR/IDS/IPS/Firewall logs help in catching malware. But these logs can contain sensitive information. What if you end up typing your password in the username field? Rookie mistake. However, it can cost a lot. Windows Event 4625 is going to report it. Almost every other application that logs failed login attempts is going to log this bit of info. NIST has a very comprehensive guide on generating and maintaining logs.
 
 ## How do we deal with it?
