@@ -25,10 +25,10 @@ Few things we can attempt:
 4. Awareness Campaigns
 
 ### Secrets Detection
-One of the most obvious solutions is to detect the secrets and redact them. However, detecting secrets is a complex task that can lead to numerous false positives. This detection can be done based on a word list or entropy detection. While we can try to flag all _possible_ secrets, there is never a way to be sure of what's private information and what's not.
+One of the most obvious solutions is to detect the secrets and redact them. However, detecting secrets is a complex task that can lead to numerous false positives. This detection can be done based on a word list or entropy detection [2]. While we can try to flag all _possible_ secrets, there is never a way to be sure of what's private information and what's not.
 
 ### Homomorphic Encryption
-An experimental solution could be to use an encryption scheme that allows search engines to search encrypted logs [2]. Real-world applications of homomorphic encryption are limited, making it a prime candidate for further research in many verticles, including privacy-preserving logging.
+An experimental solution could be to use an encryption scheme that allows search engines to search encrypted logs [3]. Real-world applications of homomorphic encryption are limited, making it a prime candidate for further research in many verticles, including privacy-preserving logging.
 
 ### Shifting Left
 Another possible solution would be to nip the evil in the bud by detecting sources of logs. Log sensors or parts of log sensor devices and applications can be configured to report if they are possibly reporting any private data with different levels of privacy and confidence. Baselines and thresholds can be set up to customise just how strictly privacy needs to preserved for certain environments.
@@ -41,4 +41,5 @@ While we are figuring out how to accurately detect and redact secrets, adversari
 
 ## References
 1. [NIST - Guide to Computer Security Log Management](https://csrc.nist.rip/library/NIST%20SP%20800-092%20Guide%20to%20Computer%20Security%20Log%20Management,%202006-09.pdf)
-2. [Homomorphic Encryption](https://www.sciencedirect.com/topics/computer-science/homomorphic-encryption)
+2. [Secrets in Source Code: Reducing False Positives using Machine Learning](https://ieeexplore.ieee.org/abstract/document/9027350)
+3. [Homomorphic Encryption](https://www.sciencedirect.com/topics/computer-science/homomorphic-encryption)
