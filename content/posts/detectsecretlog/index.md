@@ -34,7 +34,7 @@ An experimental solution could be to use an encryption scheme that allows search
 Another possible solution would be to nip the evil in the bud by detecting sources of logs. Log sensors or parts of log sensor devices and applications can be configured to report if they are possibly reporting any private data with different levels of privacy and confidence. Baselines and thresholds can be set up to customise just how strictly privacy needs to preserved for certain environments.
 
 ### Awareness Campaigns
-When all else fails, train the user to just not write the password in that username field 🤷‍♂️🤷‍♀️🤷. Sometimes we have to protect ourselves from unintentional self-sabotage.
+When all else fails, train the user to **not** write the password in that username field 🤷‍♂️🤷‍♀️🤷. Sometimes we have to protect ourselves from unintentional self-sabotage.
 
 ## Exploiting Defense Mechanisms
 While we are figuring out how to accurately detect and redact secrets, adversaries will be busy figuring out how they can abuse secret detectors to hide their payloads, secret messages, backdoors, or malware code. There will always be a trade-off between security & privacy.
