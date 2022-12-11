@@ -8,8 +8,8 @@ author: "Gaurav Gogia"
 authorLink: "https://linkedin.com/in/gaurav-gogia"
 description: "When CNNs are not mean't to be detectives"
 
-tags: ["Forensics", "Security", "Logging", "Privacy"]
-categories: ["Privacy"]
+tags: ["Forensics", "Multimedia", "Deep Learning", "CNN", "Computer Vision"]
+categories: ["Forensics"]
 
 resources:
 - name: "featured-image"
