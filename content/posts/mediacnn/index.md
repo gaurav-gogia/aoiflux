@@ -38,10 +38,7 @@ DI(Download Images) --> CF(Create Folders) --> DN(Define Neural Network) --> RT(
 
 ## Does it Work?
 Well.............kinda. Yea, sure. Sometimes.
-
-<br><br>
-<center><img title="works sometimes" alt="60% of the time it works everytime" src="./ev60.gif"/></center>
-<br><br>
+{{< figure src="ev60.gif" title="60% of the time it works everytime" >}}
 
 ## Why doesn't it always work?
 Compression is a great way to preserve quality of visual elements while optimising storage space. But many times, this same compression can lead to crucial data loss. This is the exact kind of data that we need to perform multimedia forensics tasks. This effect is even worse when lossy compression algorithms like JPEG are applied to pictures. Things become difficult when a picture is moved around multiple times through social media channels, screenshots, direct messages, and instant messaging applications. These apps are optimising for bandwith use and storage space.
@@ -59,9 +56,8 @@ When we collect images from the internet we encounter these images that have tra
 
 ## Conclusion
 Convolutional Neural Networks are not as robust as you might think. They can be extremly delicate, so our input dataset must be carefully vetted before we train them for our next computer vision or multimedia forensics task. If we train our CNNs with uncompressed images then they fail with compressed images. If we train them with compressed images then they fail with randomly cropped or multi-compressed images.
-<br><br>
-<center><img title="GIO" alt="Garbage Input, Garbage Output" src="./gigo.jpeg"/></center>
-<br><br>
+
+{{< figure src="gigo.jpeg" title="Garbage Input, Garbage Output" >}}
 
 While CNNs are delicate little flowers while we are automating multi-media forensics. Changes like image compression and mis-aligned JPEG grids hardly ever affect them when they are trained for computer vision tasks. Provided that image quality either remains decent or it's resolution is improved using some GAN. For more details please go through the attached research papers in references below ^.^
 
