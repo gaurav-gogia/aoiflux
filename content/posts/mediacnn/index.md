@@ -31,10 +31,10 @@ This information requires complex analysis that cannot always be detected by the
 
 ## Possible Solution
 Create a dataset with thousands of images. Train your neural network and let it figure out how to classify them. Easy enough right? Well.......maybe
-```mermaid
+{{< mermaid >}}
 graph LR;
 DI(Download Images) --> CF(Create Folders) --> DN(Define Neural Network) --> RT(Train Neural Network) --> T(Test);
-```
+{{< /mermaid >}}
 
 ## Does it Work?
 Well.............kinda. Yea, sure. Sometimes.
