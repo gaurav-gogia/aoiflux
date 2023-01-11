@@ -1,14 +1,14 @@
 ---
 weight: 1
 title: "One Partition N File Systems"
-date: 2023-11-27T21:57:40+08:00
-lastmod: 2023-11-27T16:45:40+08:00
+date: 2023-01-11T20:24:14+0000
+lastmod: 2023-01-11T20:24:14+0000
 draft: false
 author: "Gaurav Gogia"
 authorLink: "https://linkedin.com/in/gaurav-gogia"
 description: "One Partition N File Systems"
 
-tags: ["Forensics", "File Systems", "Anti Forensics"]
+tags: ["Forensics", "Anti Forensics", "File Systems"]
 categories: ["Forensics"]
 ---
 
