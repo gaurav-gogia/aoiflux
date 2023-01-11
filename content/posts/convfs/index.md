@@ -29,13 +29,13 @@ In this scenario, NTFS is the host file system, while FAT32 is the guest file sy
 
 Following images will show what this combined boot sector looks like:
 
-{{< figure src="ntfs_fat32.png" title=""> }}
-{{< figure src="ntfs_fat32_bytes.png" title="" >}}
+<!-- {{< figure src="ntfs_fat32.png" title=""> }} -->
+<!-- {{< figure src="ntfs_fat32_bytes.png" title="" >}} -->
 
 ## Why?
 To confuse forensic examiners and digital forensics software. While a computer may interpret these file systems normally, it will be difficult for the file systems to parse the file systems since they will not understand which parser should be run. Assuming one file system per partition will make things difficult.
 
-{{< figure src="conf.png" title="" >}}
+<!-- {{< figure src="conf.png" title="" >}} -->
 
 For more information on this topic, please read the linked research paper below ^.^
 
