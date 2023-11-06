@@ -8,7 +8,7 @@ author: "Gaurav Gogia"
 authorLink: "https://linkedin.com/in/gaurav-gogia"
 description: "ampering digital evidence is hard"
 
-tags: ["Forensics", "WSL2", "Virtualisation", "HyperV]
+tags: ["Forensics", "WSL2", "Virtualisation", "HyperV"]
 categories: ["Forensics"]
 
 resources:
