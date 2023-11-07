@@ -1,12 +1,12 @@
 ---
 weight: 1
-title: "ampering digital evidence is hard"
-date: 2023-11-5T21:57:40+08:00
-lastmod: 2023-11-5T16:45:40+08:00
+title: "Memory forensics and the Windows Subsystem for Linux"
+date: 2023-11-06T20:24:14+0000
+lastmod: 2023-11-06T20:24:14+0000
 draft: false
 author: "Gaurav Gogia"
 authorLink: "https://linkedin.com/in/gaurav-gogia"
-description: "ampering digital evidence is hard"
+description: "Memory forensics and the Windows Subsystem for Linux"
 
 tags: ["Forensics", "WSL", "Memory Forensics"]
 categories: ["Forensics"]

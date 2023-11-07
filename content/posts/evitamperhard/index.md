@@ -1,12 +1,12 @@
 ---
 weight: 1
-title: "ampering digital evidence is hard"
-date: 2023-11-6T21:57:40+08:00
-lastmod: 2023-11-6T16:45:40+08:00
+title: "Tampering digital evidence is hard"
+date: 2023-03-11T20:24:14+0000
+lastmod: 2023-04-11T20:24:14+0000
 draft: false
 author: "Gaurav Gogia"
 authorLink: "https://linkedin.com/in/gaurav-gogia"
-description: "ampering digital evidence is hard"
+description: "Tampering digital evidence is hard"
 
 tags: ["Forensics", "Anti Forensics"]
 categories: ["Forensics"]

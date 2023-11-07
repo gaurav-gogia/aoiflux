@@ -1,12 +1,12 @@
 ---
 weight: 1
-title: "ampering digital evidence is hard"
-date: 2023-11-7T21:57:40+08:00
-lastmod: 2023-11-7T16:45:40+08:00
+title: "WSL2 Forensics"
+date: 2023-08-05T20:24:14+0000
+lastmod: 2023-08-05T20:24:14+0000
 draft: false
 author: "Gaurav Gogia"
 authorLink: "https://linkedin.com/in/gaurav-gogia"
-description: "ampering digital evidence is hard"
+description: "WSL2 Forensics: Detection, Analysis & Revirtualization"
 
 tags: ["Forensics", "WSL2", "Virtualisation", "HyperV"]
 categories: ["Forensics"]
