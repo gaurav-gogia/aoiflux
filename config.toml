@@ -8,7 +8,7 @@ enableEmoji = true
 
 [module]
     [module.hugoVersion]
-        min = "0.62.0"
+        min = "0.120.0"
         extended = true
     [[module.imports]]
         path = "LoveIt"
