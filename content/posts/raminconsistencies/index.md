@@ -8,7 +8,7 @@ author: "Gaurav Gogia"
 authorLink: "https://linkedin.com/in/gaurav-gogia"
 description: "An Experimental Assessment of Inconsistencies in Memory Forensics | ACM Transactions on Privacy and Security"
 
-tags: ["Forensics", "RAM", ""]
+tags: ["Forensics", "RAM", "Vector Clocks"]
 categories: ["Forensics"]
 ---
 
