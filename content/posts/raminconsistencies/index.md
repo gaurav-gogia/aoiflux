@@ -1,12 +1,12 @@
 ---
 weight: 1
 title: "Inconsistencies in Memory Forensics"
-date: 2024-04-08T21:57:40+05:30
-lastmod: 2024-04-08T16:45:40+05:30
+date: 2024-04-07T13:23:00+05:30
+lastmod: 2024-04-07T13:23:00+05:30
 draft: false
 author: "Gaurav Gogia"
 authorLink: "https://linkedin.com/in/gaurav-gogia"
-description: "An Experimental Assessment of Inconsistencies in Memory Forensics | ACM Transactions on Privacy and Security"
+description: "An Experimental Assessment of Inconsistencies in Memory Forensics"
 
 tags: ["Memory Forensics", "Forensics", "Vector Clocks"]
 categories: ["Forensics"]
