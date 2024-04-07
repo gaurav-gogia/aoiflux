@@ -1,8 +1,8 @@
 ---
 weight: 1
 title: "Let's talk about Digital Forensics Triage Analysis"
-date: 2022-10-02T21:57:40+08:00
-lastmod: 2022-10-02T16:45:40+08:00
+date: 2022-10-02T21:57:40+05:30
+lastmod: 2022-10-02T16:45:40+05:30
 draft: false
 author: "Gaurav Gogia"
 authorLink: "https://linkedin.com/in/gaurav-gogia"

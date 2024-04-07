@@ -1,8 +1,8 @@
 ---
 weight: 1
 title: "AWS 🌭 Patch"
-date: 2022-04-04T21:57:40+08:00
-lastmod: 2022-04-04T16:45:40+08:00
+date: 2022-04-04T21:57:40+05:30
+lastmod: 2022-04-04T16:45:40+05:30
 draft: false
 author: "Gaurav Gogia"
 authorLink: "https://linkedin.com/in/gaurav-gogia"

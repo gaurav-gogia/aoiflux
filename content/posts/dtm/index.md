@@ -1,8 +1,8 @@
 ---
 weight: 1
 title: "Investigator knows that you've been shredding"
-date: 2022-10-25T21:57:40+08:00
-lastmod: 2022-10-25T16:45:40+08:00
+date: 2022-10-25T21:57:40+05:30
+lastmod: 2022-10-25T16:45:40+05:30
 draft: false
 author: "Gaurav Gogia"
 authorLink: "https://linkedin.com/in/gaurav-gogia"
