@@ -10,6 +10,10 @@ description: "Basics of Patch Diffing"
 
 tags: ["Patches", "Reverse Engineering", "Patch Diffing"]
 categories: ["Patch Diffing"]
+
+resources:
+- name: "featured-image"
+  src: "pdiff.png"
 ---
 
 ## Overview
@@ -39,6 +43,7 @@ Finding out the differences between current release and the previous release is 
 
 **YOU** have probably been doing patch diffing all this time and you may not have even realised it. Remember that time when you were looking at a pull request from your friend on your favourite version control site for code manaagement? That process was pretty close to patch diffing.
 
+{{< figure src="diffalready.png" >}}
 
 ## Why diff?
 1. Find differences between patched and unpatched software.
@@ -85,7 +90,9 @@ Case study of an important vulnerability:  **CVE-2023-24880** -> Windows SmartSc
 
 This vulnerability was actively expl byoited by Magniber Ransomware last year. The vulnerability was spread through modified `msi` installers as payload.
 
-Why does this vulnerability work?
+{{< figure src="diffhow.png" >}}
+
+### Why does this vulnerability work?
 The `DoSafeOpenPromptForShellExec` function within Windows SmartScreen initializes the `edi` register to `0`, designating the default behavior to permit file execution. Subsequently, this function invokes another routine to verify the Authenticode signature of the executable file. If an error occurs during this verification process, the `edi` register remains unchanged. If `edi` retains the initial value of `0`, the executable file is allowed to execute by default.
 
 {{< figure src="simplified.png" >}}
