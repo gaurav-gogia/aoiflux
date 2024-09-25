@@ -113,6 +113,8 @@ This technique also works with global ReadOnly variables. Go ahead and try it ou
 ### Fool-Proof Solution Code
 
 ```powershell
+$ErrorActionPreference = 'Stop';
+
 Set-Variable -Name TabCode -Value @{
     T1 = 99
     T2 = 98
@@ -129,9 +131,11 @@ function Main() {
     Write-Host $TabCode.T1;
 
     # This time overwriting will fail and you will get an error message
+    # Also, because we ensured that the scripts will stop upon first error
+    # No variable overwriting will happen.
+    # The script will DIE before it lets anyone overwrite a global constant!
     $tabCode = Test-Table -opt "one";
 
-    # However, this will still NOT stop PowerShell from overwriting the variable
     Write-Host $TabCode.T1;
 }
 Main;
