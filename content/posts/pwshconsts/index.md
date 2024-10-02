@@ -140,3 +140,12 @@ function Main() {
 }
 Main;
 ```
+
+## The plot thiccens....
+So, the fool-proof solution works. Everything is great, all is well. However, it ONLY works on PowerShell v5 and above. It does not work on anything below that.
+
+What happens when you run above mentioned code with a lower version of PowerShell? You get an error that says constant XYZ could not be overwritten. Even though the constant is just being created.
+
+`Set-Variable -Name XYZ -Value "ok" -Option Constant -Scope Global;`
+
+Just do drive the point home - running above code. Creating a constant with scope "Global" will trigger an error in older PowerShell versions. It'll think that some variable is being overwritten. Even though it is being created at this moment.
